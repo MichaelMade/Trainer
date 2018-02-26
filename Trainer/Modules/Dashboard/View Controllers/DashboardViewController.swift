@@ -10,12 +10,10 @@ import UIKit
 
 class DashboardViewController: UIViewController {
     
-    @IBOutlet weak var menuScrollView: UIScrollView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        menuScrollView.contentSize = CGSize(width: menuScrollView.frame.size.width + 250, height: menuScrollView.frame.size.height)
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A548EE77204486AC00238103 /* Exercises.plist in Resources */ = {isa = PBXBuildFile; fileRef = A548EE76204486AB00238103 /* Exercises.plist */; };
+		A548EE7A204486C800238103 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548EE79204486C800238103 /* Exercise.swift */; };
+		A548EE7F20449C6300238103 /* OnboardingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548EE7E20449C6300238103 /* OnboardingTableViewCell.swift */; };
 		A5C9CA63202103F400646192 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9CA62202103F400646192 /* AppDelegate.swift */; };
 		A5C9CA65202103F400646192 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C9CA64202103F400646192 /* OnboardingViewController.swift */; };
 		A5C9CA68202103F400646192 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C9CA66202103F400646192 /* Onboarding.storyboard */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A548EE76204486AB00238103 /* Exercises.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Exercises.plist; sourceTree = "<group>"; };
+		A548EE79204486C800238103 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		A548EE7E20449C6300238103 /* OnboardingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTableViewCell.swift; sourceTree = "<group>"; };
 		A5C9CA5F202103F400646192 /* Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C9CA62202103F400646192 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C9CA64202103F400646192 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A548EE78204486B400238103 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A548EE76204486AB00238103 /* Exercises.plist */,
+				A548EE79204486C800238103 /* Exercise.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A548EE7D20449C5100238103 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A548EE7E20449C6300238103 /* OnboardingTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A5C9CA56202103F400646192 = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +183,9 @@
 			isa = PBXGroup;
 			children = (
 				A5C9CA66202103F400646192 /* Onboarding.storyboard */,
+				A548EE7D20449C5100238103 /* Views */,
 				A5C9CA9C20210B7F00646192 /* View Controllers */,
+				A548EE78204486B400238103 /* Models */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -307,6 +332,7 @@
 			files = (
 				A5C9CA70202103F400646192 /* LaunchScreen.storyboard in Resources */,
 				A5C9CA6D202103F400646192 /* Assets.xcassets in Resources */,
+				A548EE77204486AC00238103 /* Exercises.plist in Resources */,
 				A5C9CA68202103F400646192 /* Onboarding.storyboard in Resources */,
 				A5C9CAA120210BFF00646192 /* Dashboard.storyboard in Resources */,
 			);
@@ -333,8 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A548EE7A204486C800238103 /* Exercise.swift in Sources */,
 				A5C9CA6B202103F400646192 /* Trainer.xcdatamodeld in Sources */,
 				A5C9CA65202103F400646192 /* OnboardingViewController.swift in Sources */,
+				A548EE7F20449C6300238103 /* OnboardingTableViewCell.swift in Sources */,
 				A5C9CA63202103F400646192 /* AppDelegate.swift in Sources */,
 				A5C9CAA420211B6800646192 /* DashboardViewController.swift in Sources */,
 			);
